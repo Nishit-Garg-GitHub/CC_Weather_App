@@ -40,18 +40,18 @@ class LoginPage extends StatelessWidget {
                 }
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white, // Set button background color
-                padding: const EdgeInsets.all(20.0), // Set padding for the button
+                backgroundColor: Colors.white, 
+                padding: const EdgeInsets.all(20.0), 
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.network(
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkyt756Fxim0wbg4N5peJntzd4ImRyeikdDzuksO8j_eL15DdywPHQO4koD7k7J5hqFV0&usqp=CAU', // Replace with the actual URL of your Google logo image
-                    height: 40, // Adjust the height as needed
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkyt756Fxim0wbg4N5peJntzd4ImRyeikdDzuksO8j_eL15DdywPHQO4koD7k7J5hqFV0&usqp=CAU', 
+                    height: 40,
                   ),
                   const SizedBox(
-                      width: 10), // Add some space between the logo and text
+                      width: 10), 
                   const Text(
                     'Continue with Google',
                     style: TextStyle(fontSize: 35.0, color: Colors.blue),
