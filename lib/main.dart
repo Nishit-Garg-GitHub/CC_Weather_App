@@ -3,7 +3,6 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
 import 'add_city.dart';
-import 'login_page.dart';
 import 'weather_service.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
@@ -23,7 +22,7 @@ Future<void> main() async {
         primaryColor: Colors.blue,
         fontFamily: 'Roboto',
       ),
-      home: LoginPage(), // Set the initial route to LoginPage
+      home: LoginPage(), 
     ),
   );
 }
